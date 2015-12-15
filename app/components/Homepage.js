@@ -10,7 +10,7 @@ class Homepage extends Component {
   render() {
     return (
       <div id="main-wrap">
-        <Header title="Title" />
+        <Header title="Hello" />
         <Main />
         <Footer />
       </div>
