@@ -2,6 +2,8 @@
 
 A universal boilerplate, using React.
 
+Includes routing, via `react-router`.
+
 ## Getting started
 
 ```
