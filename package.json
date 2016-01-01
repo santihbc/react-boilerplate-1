@@ -1,7 +1,7 @@
 {
-  "name": "react-universal-boilerplate",
+  "name": "react-boilerplate",
   "version": "0.1.0",
-  "description": "React Universal Boilerplate",
+  "description": "Just another React boilerplate",
   "main": "server/index.js",
   "dependencies": {
     "ejs": "^2.3.4",
@@ -40,9 +40,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jlowgren/react-universal-boilerplate.git"
+    "url": "https://github.com/jlowgren/react-boilerplate.git"
   },
   "author": "Joacim Löwgren",
   "license": "ISC",
-  "homepage": "https://github.org/jlowgren/react-universal-boilerplate"
+  "homepage": "https://github.org/jlowgren/react-boilerplate"
 }

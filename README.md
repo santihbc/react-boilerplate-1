@@ -1,8 +1,13 @@
 # React Universal Boilerplate
 
-A universal boilerplate, using React.
+Just another React boilerplate.
 
-Includes routing, via `react-router`.
+Includes:
+
+- Hot module replacement (HMR)
+- Server side rendering (isomorphic)
+- Routing
+- LESS
 
 ## Getting started
 
