@@ -1,4 +1,4 @@
-# React Universal Boilerplate
+# React Boilerplate
 
 Just another React boilerplate.
 
