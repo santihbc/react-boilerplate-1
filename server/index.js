@@ -7,7 +7,7 @@ import webpack from 'webpack';
 import webpackMiddleware from 'webpack-dev-middleware';
 import webpackHotMiddleware from 'webpack-hot-middleware';
 import { renderToString } from 'react-dom/server';
-import { match, RoutingContext } from 'react-router';
+import { match, RouterContext } from 'react-router';
 
 import routes from '../app/routes';
 import config from '../webpack/development.config.js';
@@ -44,7 +44,7 @@ app.use((req, res) => {
       res.status(302).redirect(redirectLocation.pathname + redirectLocation.search);
     } else if (renderProps) {
       res.status(200).render('index.ejs', {
-        markup: renderToString(<RoutingContext {...renderProps} />)
+        markup: renderToString(<RouterContext {...renderProps} />)
       });
     } else {
       res.status(404).send('Not found');
